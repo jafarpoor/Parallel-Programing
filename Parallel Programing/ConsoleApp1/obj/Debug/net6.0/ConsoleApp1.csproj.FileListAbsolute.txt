@@ -1,0 +1,14 @@
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Jafarpour\Parallel-Programing\Parallel Programing\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
