@@ -13,7 +13,8 @@ namespace ConsoleAppParallelPrograming
     static internal class Example
     {
         public static int counter = 10;
-
+        public static int sharedNumber = 0;
+        public static object myLock = new object();
         // --- Example1 ---
 
         public static void opration1()
@@ -239,5 +240,39 @@ namespace ConsoleAppParallelPrograming
 
             Console.WriteLine($"{result.Count()} even number out of {source.Count()}, in :{sw.ElapsedMilliseconds}");
         }
+
+        // --- Example 12 ---
+        public static void LockExample()
+        {
+            Thread t1 = new Thread(Work);
+            Thread t2 = new Thread(Work);
+
+            t1.Start();
+            t2.Start();
+
+            t1.Join();
+            t2.Join();
+
+
+          //  با lock: خروجی همیشه 20 است 
+         //  بدون lock: خروجی ممکن است 19 یا 18 باشد 
+            Console.WriteLine($"عدد نهایی: {sharedNumber}");
+        }
+
+        static void Work()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                // فقط یک thread می‌تواند این بخش را اجرا کند
+                lock (myLock)
+                {
+                    int temp = sharedNumber;
+                    temp++;
+                    sharedNumber = temp;
+                }
+            }
+        }
     }
 }
+
+

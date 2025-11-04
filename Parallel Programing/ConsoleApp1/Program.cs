@@ -41,18 +41,25 @@ internal class Program
         //Example.TestException();
 
         // --- Example8 ---
-        Example.TestCancleToken();
+        //Example.TestCancleToken();
 
 
         // --- Example9 ---
-        Task T1 = Task.Factory.StartNew(Example.PrintStar);
-        Task T2 = T1.ContinueWith(a => Example.PrintPlus());
+        //Task T1 = Task.Factory.StartNew(Example.PrintStar);
+        //Task T2 = T1.ContinueWith(a => Example.PrintPlus());
 
-        Task.WaitAll(new Task[] { T1, T2 });
+        //Task.WaitAll(new Task[] { T1, T2 });
 
         // --- Example 10 ---
-        Example.TestPlinq();
+        //Example.TestPlinq();
 
+
+        // --- Example 11 ---
+        //SemaphoreExample.Job();
+
+
+        // --- Example 12 ---
+        Example.LockExample();
 
         Console.ReadKey();
     }
